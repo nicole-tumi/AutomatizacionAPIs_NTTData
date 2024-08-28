@@ -1,2 +1,3 @@
-# QAInnovationLab
-Automation Team / For education purpose
+# Tech Girl Power - NTT Data
+
+Evaluacion Automatizacion Web - NTT Data
