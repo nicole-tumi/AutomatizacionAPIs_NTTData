@@ -2,16 +2,7 @@ package com.nttdata.steps;
 
 import io.restassured.response.Response;
 import static io.restassured.RestAssured.given;
-//import static org.hamcrest.Matchers.equalTo;
-import net.serenitybdd.rest.SerenityRest;
 import net.thucydides.core.annotations.Step;
-
-import java.util.List;
-import java.lang.Integer;
-
-import static io.restassured.RestAssured.given;
-import static net.serenitybdd.rest.SerenityRest.restAssuredThat;
-import static org.hamcrest.CoreMatchers.equalTo;
 
 public class ConsultarOrdenStep {
 

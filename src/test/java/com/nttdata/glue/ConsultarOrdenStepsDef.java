@@ -12,19 +12,16 @@ public class ConsultarOrdenStepsDef {
 
     @When("consulto la orden registrada con el id {int}")
     public void consultoLaOrdenRegistradaConElId(int expectedIdOrder) {
-        //ConsultarOrdenStep consultarOrdenStep = new ConsultarOrdenStep();
         consultarOrdenStep.consultarOrden(expectedIdOrder);
     }
 
     @Then("el status de la consulta debe ser {int}")
     public void elStatusDeLaConsultaDebeSer(int expectedStatusCode) {
-        //ConsultarOrdenStep consultarOrdenStep = new ConsultarOrdenStep();
         consultarOrdenStep.validarCodigoRespuesta(expectedStatusCode);
     }
 
     @And("el codigo de la mascota debe ser {int}")
     public void elCodigoDeLaMascotaDebeSer(int expectedIdPet) {
-        //ConsultarOrdenStep consultarOrdenStep = new ConsultarOrdenStep();
         consultarOrdenStep.validarIdPet(expectedIdPet);
     }
 
